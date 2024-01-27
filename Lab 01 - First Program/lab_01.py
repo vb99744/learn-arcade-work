@@ -1,6 +1,7 @@
 print("""Hello, my name is Victoria, and I hope you are having a good day.
 I also hope that this is right because I have had to redo this many times because the 
-files would not open back up.""")
+files would not open back up.
+This is my first time using Python.""")
 
 print("Thomas Edison once said, \"Our greatest weakness lies in giving up."
       "\nThe most certain way to succeed is always to just try one more time\".")
