@@ -49,7 +49,7 @@ arcade.draw_rectangle_filled(305, 460, 12, 4, arcade.csscolor.CYAN, 72)
 arcade.draw_rectangle_filled(285, 435, 12, 4, arcade.csscolor.LIGHT_GREEN, 32)
 arcade.draw_rectangle_filled(375, 430, 12, 4, arcade.csscolor.CYAN, 50)
 
-# small icecream (left)
+# small icecream cone
 arcade.draw_polygon_filled(((100, 50),
                             (50, 150),
                             (30, 170),
