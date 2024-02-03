@@ -25,7 +25,7 @@ arcade.draw_circle_filled(300, 380, 45, arcade.csscolor.LIGHT_PINK)
 arcade.draw_circle_filled(220, 380, 45, arcade.csscolor.LIGHT_PINK)
 arcade.draw_circle_filled(380, 380, 45, arcade.csscolor.LIGHT_PINK)
 
-# cherry
+# cherry and stem
 arcade.draw_circle_filled(340, 490, 25, arcade.csscolor.RED)
 arcade.draw_line(345,510, 360, 530, arcade.csscolor.GREEN, 5)
 
@@ -60,7 +60,7 @@ arcade.draw_polygon_filled(((100, 50),
                             ),
                            arcade.csscolor.SANDY_BROWN)
 
-# vanilla icecream
+# vanilla icecream for small cone
 arcade.draw_ellipse_filled(100, 180, 160, 50, arcade.csscolor.WHITE)
 arcade.draw_arc_filled(100, 180, 130, 130, arcade.csscolor.WHITE, 0, 180)
 
