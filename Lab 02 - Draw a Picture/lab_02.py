@@ -1,7 +1,7 @@
 import arcade
 
 #setting the dimensions (600, 600)
-#setting the widow title to "Icecream Cone"
+#setting the widow title to "Icecream Cones"
 arcade.open_window(600, 600, "Icecream Cones")
 
 # set background color
