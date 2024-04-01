@@ -134,7 +134,17 @@ class MyGame(arcade.Window):
         if key == arcade.key.LEFT:
             self.kite.change_x = -MOVEMENT_SPEED
         elif key == arcade.key.RIGHT:
-            sarcade.
+            self.kite.change_x = MOVEMENT_SPEED
+        elif key == arcade.key.UP:
+            self.kite.change_y = MOVEMENT_SPEED
+        elif key == arcade.key.DOWN:
+            self.kite.change_y = -MOVEMENT_SPEED
+
+    def on_key_release(self, key: int, modifiers: int):
+        if key == arcade.key.LEFT or key == arcade.key.RIGHT:
+            self.kite.change_x = 0
+        elif key == arcade.key.UP or key == arcade.key.DOWN:
+            self.kite.change_y = 0
 
     def on_mouse_press(self, x: int, y: int, button: int, modifiers: int):
         # movement for the bird
