@@ -4,7 +4,7 @@ import arcade
 ROW_COUNT = 10
 COLUMN_COUNT = 10
 
-# this sets the width and height of each grid location
+# set the width and height of each grid location
 WIDTH = 20
 HEIGHT = 20
 
